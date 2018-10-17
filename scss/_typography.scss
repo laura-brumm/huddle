@@ -1,0 +1,40 @@
+.heading--lg {
+    color: $neutral-dark;
+    font: {
+        family: $font-headings;
+        size: 2.25rem;
+        weight: 700;
+    }
+    margin-bottom: 15px;
+}
+
+.heading--md {
+    color: $neutral-dark;
+    font: {
+        family: $font-headings;
+        size: 1.25rem;
+        weight: 700;
+    }
+}
+
+.heading--form {
+    font-size: 1.15rem;
+    padding-bottom: 10px;
+}
+
+.text--center {
+    margin: 0 auto;
+}
+
+.text--body {
+    color: $neutral-light;
+    font: {
+        family: $font-body;
+        size: 1rem;
+    }
+    max-width: 600px;
+    padding: {
+        top: 25px;
+        bottom: 30px;
+    }
+}
