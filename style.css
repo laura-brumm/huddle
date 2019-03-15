@@ -179,7 +179,8 @@ img {
   .split-width .float--right {
     width: 50%; }
     .split-width .float--right .img--body {
-      max-width: 100%; }
+      max-width: 100%;
+      padding: 10px; }
       @media (max-width: 900px) {
         .split-width .float--right .img--body {
           padding: 50px 25px; } }
