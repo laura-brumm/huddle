@@ -6,7 +6,7 @@
   "scripts": {
     "build": "node-sass scss -o .",
     "browsersync": "browser-sync start --server '.' --files '*'",
-    "dev": "parallelshell 'npm run scss' 'npm run browsersync'",
+    "dev": "npm run build && parallelshell 'npm run scss' 'npm run browsersync'",
     "scss": "node-sass --watch scss -o ."
   },
   "author": "",

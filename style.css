@@ -288,5 +288,8 @@ img {
     @media (max-width: 750px) {
       .footer .copyright {
         position: static;
-        margin-bottom: 25px;
-        margin-left: 25px; } }
+        margin-top: 25px;
+        margin-left: 25px;
+        transform: none;
+        bottom: auto;
+        left: auto; } }

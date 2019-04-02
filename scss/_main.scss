@@ -238,9 +238,12 @@ img {
     @media (max-width: 750px) {
       position: static;
       margin: {
-        bottom: 25px;
+        top: 25px;
         left: 25px;
       }
+      transform: none;
+      bottom: auto;
+      left: auto;
     }
   }
 }
