@@ -212,6 +212,9 @@ img {
     @media (max-width: 1000px) {
       .footer .footer--padding {
         padding-top: 50px; } }
+    @media (max-width: 750px) {
+      .footer .footer--padding {
+        bottom: 25px; } }
   .footer .logo--margin {
     margin-bottom: 50px; }
   .footer .logo {
@@ -282,3 +285,8 @@ img {
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%); }
+    @media (max-width: 750px) {
+      .footer .copyright {
+        position: static;
+        margin-bottom: 25px;
+        margin-left: 25px; } }

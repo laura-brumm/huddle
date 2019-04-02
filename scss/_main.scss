@@ -113,6 +113,10 @@ img {
         top: 50px;
       }
     }
+
+    @media (max-width: 750px) {
+      bottom: 25px;
+    }
   }
 
   .logo--margin {
@@ -230,5 +234,13 @@ img {
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
+
+    @media (max-width: 750px) {
+      position: static;
+      margin: {
+        bottom: 25px;
+        left: 25px;
+      }
+    }
   }
 }
